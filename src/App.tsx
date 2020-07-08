@@ -84,7 +84,7 @@ function App() {
 
   React.useEffect(() => {
     async function getData() {
-      const response = await fetch("/data/per-cap.csv");
+      const response = await fetch("data/per-cap.csv");
       const reader = response.body?.getReader();
       const result = await reader?.read(); // raw array
       const decoder = new TextDecoder("utf-8");

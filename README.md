@@ -14,9 +14,18 @@ cd police-data
 yarn start
 ```
 
+## Deploying to GitHub
+
+To deploy to GitHub you need to run
+
+```
+yarn deploy
+```
+
+in your local repository.
+
 ## TODO
 
 - Mobile
-- Set up to build on github
 - More data, switching between data
 - explore city budgets?

@@ -13,3 +13,10 @@ git clone git@github.com:simonv3/police-data.git
 cd police-data
 yarn start
 ```
+
+## TODO
+
+- Mobile
+- Set up to build on github
+- More data, switching between data
+- explore city budgets?
